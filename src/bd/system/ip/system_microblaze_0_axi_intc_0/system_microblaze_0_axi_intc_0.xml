@@ -2277,11 +2277,11 @@ For each bit:
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Dec 07 05:08:03 UTC 2017</spirit:value>
+            <spirit:value>Thu Jan 18 19:28:48 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:0125d141</spirit:value>
+            <spirit:value>7:0382ad23</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2296,11 +2296,11 @@ For each bit:
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Dec 07 05:08:03 UTC 2017</spirit:value>
+            <spirit:value>Thu Jan 18 19:28:48 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:0125d141</spirit:value>
+            <spirit:value>7:0382ad23</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2318,11 +2318,11 @@ For each bit:
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Dec 07 05:08:03 UTC 2017</spirit:value>
+            <spirit:value>Thu Jan 18 19:28:48 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:5c867406</spirit:value>
+            <spirit:value>7:9cd6c4d8</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2337,11 +2337,11 @@ For each bit:
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Dec 07 05:08:03 UTC 2017</spirit:value>
+            <spirit:value>Thu Jan 18 19:28:48 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:5c867406</spirit:value>
+            <spirit:value>7:9cd6c4d8</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2355,11 +2355,11 @@ For each bit:
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Dec 07 05:09:12 UTC 2017</spirit:value>
+            <spirit:value>Thu Jan 18 19:55:49 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:0125d141</spirit:value>
+            <spirit:value>7:0382ad23</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>

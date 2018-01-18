@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Dec  6 21:29:59 2017" VIVADOVERSION="2017.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jan 18 12:25:01 2018" VIVADOVERSION="2017.3">
 
-  <SYSTEMINFO ARCH="spartan7" BOARD="digilentinc.com:arty-s7-50:part0:1.0" DEVICE="7s50" NAME="bd_44e3" PACKAGE="csga324" SPEEDGRADE="-1"/>
+  <SYSTEMINFO ARCH="spartan7" BOARD="digilentinc.com:arty-s7-25:part0:1.0" DEVICE="7s25" NAME="bd_44e3" PACKAGE="csga324" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
     <PORT CLKFREQUENCY="100000000" DIR="I" NAME="aclk" SIGIS="clk" SIGNAME="External_Ports_aclk">

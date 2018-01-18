@@ -43,8 +43,8 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 
 set list_projs [get_projects -quiet]
 if { $list_projs eq "" } {
-   create_project project_1 myproj -part xc7s50csga324-1
-   set_property BOARD_PART digilentinc.com:arty-s7-50:part0:1.0 [current_project]
+   create_project project_1 myproj -part xc7s25csga324-1
+   set_property BOARD_PART digilentinc.com:arty-s7-25:part0:1.0 [current_project]
 }
 
 

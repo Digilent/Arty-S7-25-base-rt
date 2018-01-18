@@ -946,11 +946,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Dec 07 05:29:52 UTC 2017</spirit:value>
+            <spirit:value>Thu Jan 18 20:24:55 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:30ed6910</spirit:value>
+            <spirit:value>7:ea844b04</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -965,11 +965,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Dec 07 05:29:52 UTC 2017</spirit:value>
+            <spirit:value>Thu Jan 18 20:24:55 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:30ed6910</spirit:value>
+            <spirit:value>7:ea844b04</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -987,11 +987,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Dec 07 05:29:52 UTC 2017</spirit:value>
+            <spirit:value>Thu Jan 18 20:24:55 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:b14dd18e</spirit:value>
+            <spirit:value>7:ec2dcec2</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1006,11 +1006,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Dec 07 05:29:52 UTC 2017</spirit:value>
+            <spirit:value>Thu Jan 18 20:24:55 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:b14dd18e</spirit:value>
+            <spirit:value>7:ec2dcec2</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>

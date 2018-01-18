@@ -1,7 +1,7 @@
 --Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
---Date        : Wed Dec  6 21:29:50 2017
+--Date        : Thu Jan 18 12:24:52 2018
 --Host        : DESKTOP-9HMNAI5 running 64-bit major release  (build 9200)
 --Command     : generate_target system.bd
 --Design      : system
@@ -2924,10 +2924,12 @@ entity system is
     Vaux2_v_p : in STD_LOGIC;
     Vaux3_v_n : in STD_LOGIC;
     Vaux3_v_p : in STD_LOGIC;
+    Vaux4_v_n : in STD_LOGIC;
+    Vaux4_v_p : in STD_LOGIC;
+    Vaux5_v_n : in STD_LOGIC;
+    Vaux5_v_p : in STD_LOGIC;
     Vaux8_v_n : in STD_LOGIC;
     Vaux8_v_p : in STD_LOGIC;
-    Vaux9_v_n : in STD_LOGIC;
-    Vaux9_v_p : in STD_LOGIC;
     Vp_Vn_v_n : in STD_LOGIC;
     Vp_Vn_v_p : in STD_LOGIC;
     ddr3_sdram_addr : out STD_LOGIC_VECTOR ( 13 downto 0 );
@@ -3561,10 +3563,12 @@ architecture STRUCTURE of system is
     vauxn2 : in STD_LOGIC;
     vauxp3 : in STD_LOGIC;
     vauxn3 : in STD_LOGIC;
+    vauxp4 : in STD_LOGIC;
+    vauxn4 : in STD_LOGIC;
+    vauxp5 : in STD_LOGIC;
+    vauxn5 : in STD_LOGIC;
     vauxp8 : in STD_LOGIC;
     vauxn8 : in STD_LOGIC;
-    vauxp9 : in STD_LOGIC;
-    vauxn9 : in STD_LOGIC;
     vauxp10 : in STD_LOGIC;
     vauxn10 : in STD_LOGIC;
     vauxp11 : in STD_LOGIC;
@@ -3594,10 +3598,12 @@ architecture STRUCTURE of system is
   signal Vaux2_1_V_P : STD_LOGIC;
   signal Vaux3_1_V_N : STD_LOGIC;
   signal Vaux3_1_V_P : STD_LOGIC;
+  signal Vaux4_0_1_V_N : STD_LOGIC;
+  signal Vaux4_0_1_V_P : STD_LOGIC;
+  signal Vaux5_0_1_V_N : STD_LOGIC;
+  signal Vaux5_0_1_V_P : STD_LOGIC;
   signal Vaux8_1_V_N : STD_LOGIC;
   signal Vaux8_1_V_P : STD_LOGIC;
-  signal Vaux9_1_V_N : STD_LOGIC;
-  signal Vaux9_1_V_P : STD_LOGIC;
   signal Vp_Vn_1_V_N : STD_LOGIC;
   signal Vp_Vn_1_V_P : STD_LOGIC;
   signal axi_gpio_0_GPIO1_TRI_I : STD_LOGIC_VECTOR ( 3 downto 0 );
@@ -3990,10 +3996,12 @@ architecture STRUCTURE of system is
   attribute X_INTERFACE_INFO of Vaux2_v_p : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux2 V_P";
   attribute X_INTERFACE_INFO of Vaux3_v_n : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux3 V_N";
   attribute X_INTERFACE_INFO of Vaux3_v_p : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux3 V_P";
+  attribute X_INTERFACE_INFO of Vaux4_v_n : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux4 ";
+  attribute X_INTERFACE_INFO of Vaux4_v_p : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux4 ";
+  attribute X_INTERFACE_INFO of Vaux5_v_n : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux5 ";
+  attribute X_INTERFACE_INFO of Vaux5_v_p : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux5 ";
   attribute X_INTERFACE_INFO of Vaux8_v_n : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux8 V_N";
   attribute X_INTERFACE_INFO of Vaux8_v_p : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux8 V_P";
-  attribute X_INTERFACE_INFO of Vaux9_v_n : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux9 V_N";
-  attribute X_INTERFACE_INFO of Vaux9_v_p : signal is "xilinx.com:interface:diff_analog_io:1.0 Vaux9 V_P";
   attribute X_INTERFACE_INFO of Vp_Vn_v_n : signal is "xilinx.com:interface:diff_analog_io:1.0 Vp_Vn V_N";
   attribute X_INTERFACE_INFO of Vp_Vn_v_p : signal is "xilinx.com:interface:diff_analog_io:1.0 Vp_Vn V_P";
   attribute X_INTERFACE_INFO of ddr3_sdram_cas_n : signal is "xilinx.com:interface:ddrx:1.0 ddr3_sdram CAS_N";
@@ -4051,10 +4059,12 @@ begin
   Vaux2_1_V_P <= Vaux2_v_p;
   Vaux3_1_V_N <= Vaux3_v_n;
   Vaux3_1_V_P <= Vaux3_v_p;
+  Vaux4_0_1_V_N <= Vaux4_v_n;
+  Vaux4_0_1_V_P <= Vaux4_v_p;
+  Vaux5_0_1_V_N <= Vaux5_v_n;
+  Vaux5_0_1_V_P <= Vaux5_v_p;
   Vaux8_1_V_N <= Vaux8_v_n;
   Vaux8_1_V_P <= Vaux8_v_p;
-  Vaux9_1_V_N <= Vaux9_v_n;
-  Vaux9_1_V_P <= Vaux9_v_p;
   Vp_Vn_1_V_N <= Vp_Vn_v_n;
   Vp_Vn_1_V_P <= Vp_Vn_v_p;
   axi_gpio_0_GPIO1_TRI_I(3 downto 0) <= led_4bits_tri_i(3 downto 0);
@@ -4903,16 +4913,18 @@ xadc_wiz_0: component system_xadc_wiz_0_0
       vauxn11 => Vaux11_1_V_N,
       vauxn2 => Vaux2_1_V_N,
       vauxn3 => Vaux3_1_V_N,
+      vauxn4 => Vaux4_0_1_V_N,
+      vauxn5 => Vaux5_0_1_V_N,
       vauxn8 => Vaux8_1_V_N,
-      vauxn9 => Vaux9_1_V_N,
       vauxp0 => Vaux0_1_V_P,
       vauxp1 => Vaux1_1_V_P,
       vauxp10 => Vaux10_1_V_P,
       vauxp11 => Vaux11_1_V_P,
       vauxp2 => Vaux2_1_V_P,
       vauxp3 => Vaux3_1_V_P,
+      vauxp4 => Vaux4_0_1_V_P,
+      vauxp5 => Vaux5_0_1_V_P,
       vauxp8 => Vaux8_1_V_P,
-      vauxp9 => Vaux9_1_V_P,
       vccaux_alarm_out => NLW_xadc_wiz_0_vccaux_alarm_out_UNCONNECTED,
       vccint_alarm_out => NLW_xadc_wiz_0_vccint_alarm_out_UNCONNECTED,
       vn_in => Vp_Vn_1_V_N,

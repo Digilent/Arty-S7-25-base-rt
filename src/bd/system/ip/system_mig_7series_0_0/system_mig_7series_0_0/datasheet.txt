@@ -1,7 +1,7 @@
 
 
 Vivado Project Options:
-   Target Device                   : xc7s50-csga324
+   Target Device                   : xc7s25-csga324
    Speed Grade                     : -1
    HDL                             : verilog
    Synthesis Tool                  : VIVADO
